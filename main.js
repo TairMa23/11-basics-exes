@@ -9,6 +9,10 @@
 let number = 4; // INPUT
 
 // (keep the "// INPUT" comments - the tests use them to try other values)
-
+let mul = 0
 // write your code below this line
-
+for (let i = 1; i <= 10; i++) {
+    mul = number * i 
+    console.log(`${number} x ${i} = ${number * (i)}`)
+    
+}
