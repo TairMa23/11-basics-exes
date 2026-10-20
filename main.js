@@ -12,3 +12,12 @@ let rows = 4; // INPUT
 
 // write your code below this line
 
+let sum = ""
+for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < i+1; j++) {
+        sum+='*'
+    }
+    console.log(sum)
+    sum = ""
+}
+
