@@ -11,4 +11,11 @@ let fifth = 5; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
+let largest = first;
 
+if (second > largest) largest = second;
+if (third > largest) largest = third;
+if (fourth > largest) largest = fourth;
+if (fifth > largest) largest = fifth;
+
+console.log(largest);
